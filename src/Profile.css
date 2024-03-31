@@ -1,0 +1,43 @@
+.profile {
+  display: flex; /* Arrange elements side-by-side */
+  width: fit-content; /* Adjust width as needed */
+  margin: 1rem auto; /* Add some margin for spacing */
+  border: 1px solid #ddd; /* Optional border */
+  border-radius: 4px; /* Optional rounded corners */
+  padding: 1rem; /* Add some padding inside */
+}
+
+.profile-info,
+.profile-stats {
+  flex: 1; /* Make both sections equally sized */
+}
+
+.profile-image {
+  width: 100px; /* Adjust image width */
+  height: 100px; /* Adjust image height */
+  border-radius: 50%; /* Make image circular */
+  object-fit: cover; /* Crop image to fit container */
+}
+
+.user-details {
+  margin-left: 1rem; /* Add some space between image and text */
+}
+
+.profile-name,
+.profile-tag,
+.profile-location {
+  margin-bottom: 0.5rem; /* Add some space between text lines */
+}
+
+.profile-stats {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.stat-label,
+.stat-value {
+  display: inline-block; /* Allow labels and values to be side-by-side */
+  width: 50%; /* Make labels and values same width */
+  text-align: left; /* Align text to the left */
+}
