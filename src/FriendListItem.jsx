@@ -1,6 +1,7 @@
-import React from "react";
+
 import styles from "./FriendListItem.module.css";
 
+// eslint-disable-next-line react/prop-types
 const FriendListItem = ({ avatar, name, isOnline }) => (
   <div className={styles.friendItem}>
     <img className={styles.avatar} src={avatar} alt="Avatar" width="48" />

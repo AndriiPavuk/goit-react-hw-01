@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Profile } from "./Profile";
 import friends from "./friends.json";
 import FriendList from "./FriendList";
